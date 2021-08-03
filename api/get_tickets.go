@@ -84,7 +84,9 @@ func GetTickets(offset int, silent bool) (*map[string]interface{}, error) {
 	return &payload, nil
 }
 
+// Gets Ticket in JSON string format and parses it into an arbitrary map
 func GetTicket(ticketID int) (*map[string]interface{}, error) {
+	// Construct ticket URL
 	url := urls.GetTicketURL(ticketID)
 	// Create request struct
 	req, err := http.NewRequest("GET", url, nil)
