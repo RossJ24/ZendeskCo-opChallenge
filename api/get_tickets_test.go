@@ -82,3 +82,11 @@ func TestGetTicketCount(t *testing.T) {
 		t.Errorf("Unable to fetch ticket count. Error: %s", err.Error())
 	}
 }
+
+// Tests that the ticket is being returned correctly
+func TestGetTicket(t *testing.T) {
+	_, err := GetTicket(1)
+	if err != nil {
+		t.Errorf("Unable to fetch ticket count. Error: %s", err.Error())
+	}
+}
