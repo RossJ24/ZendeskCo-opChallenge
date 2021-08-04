@@ -12,7 +12,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-  **Must be authorized to access my Zendesk subdomain**
+*  **Must be authorized to access my Zendesk subdomain**
 
 * go 16.16.5 or later [go installation link](https://golang.org/dl/)
 
