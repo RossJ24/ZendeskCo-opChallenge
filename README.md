@@ -21,7 +21,7 @@ To get a local copy up and running follow these simple steps.
    ```sh
    git clone https://github.com/RossJ24/ZendeskCo-opChallenge.git
    ```
-2. Install NPM packages
+2. Install Go packages
    ```sh
    go get
    ```
