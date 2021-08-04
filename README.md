@@ -32,4 +32,6 @@ To get a local copy up and running follow these simple steps.
     EMAIL=youremail@email.com
     PASSWORD=yourpassword
    ```
-4. Execute the program `go run main.go` or build an executable `go build -o <executable_name>` `./<executable_name>`
+4. To test the program run `go test ./...` from the base directory
+
+5. Execute the program `go run main.go` or build an executable `go build -o <executable_name>` `./<executable_name>`
